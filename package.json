@@ -1,7 +1,7 @@
 {
-  "name": "@dashevo/bitcore-payment-protocol",
+  "name": "bitcore-payment-protocol-colx",
   "version": "1.2.1",
-  "description": "Payment Protocol (BIP70 and related) support for bitcore-dash",
+  "description": "Payment Protocol (BIP70 and related) support for bitcore colx",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
@@ -34,22 +34,22 @@
     }
   ],
   "keywords": [
-    "dash",
-    "bitcore-dash"
+    "colx",
+    "bitcore"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/dashevo/bitcore-payment-protocol-dash.git"
+    "url": "https://github.com/deltaengine/bitcore-payment-protocol-colx.git"
   },
   "browser": "lib/browser.js",
   "dependencies": {
     "asn1.js": "=4.5.2",
-    "bitcore-lib-dash": "^0.14.0",
+    "bitcore-lib-colx": "github:deltaengine/bitcore-lib-colx",
     "jsrsasign": "=5.0.10",
     "protobufjs": "=5.0.1"
   },
   "devDependencies": {
-    "bitcore-build-dash": "git://github.com/dashpay/bitcore-build-dash.git#0125d7646a40fcb6c1e904ca48a4f24f2dab4320",
+    "bitcore-build-colx": "github:deltaengine/bitcore-build-colx",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10",
